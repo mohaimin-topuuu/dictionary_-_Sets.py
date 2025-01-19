@@ -1,55 +1,55 @@
 #Dictionaries are used to store data valules as key:value pairs in python
 #They are unordered, mutable and don't allow duplicate keys.
 #basic dictionary
-# dict = {
-#     "name": "Abdulla",
-#     "age": 25,
-#     "city": "New York",
-#     "occupation": "Software Engineer",
-#     "isSingle": True,
-# }
-# print(dict["name"])
-# dict["name"] = "Topu"
-# print(dict["name"])     
+dict = {
+    "name": "Abdulla",
+    "age": 25,
+    "city": "New York",
+    "occupation": "Software Engineer",
+    "isSingle": True,
+}
+print(dict["name"])
+dict["name"] = "Topu"
+print(dict["name"])     
 
 # dictionary with nested dictionaries
 
-# myDict = {
-#     "name": "John",
-#     "age": 25,
-#     "address": {
-#         "street": "123 Main St",
-#         "city": "New York",
-#         "state": "NY"
-#     },
-#     "hobbies": ["realllding", "painting", "cooking"]
-# }
-# myDictProperty = myDict.get("address").get("street")
+myDict = {
+    "name": "John",
+    "age": 25,
+    "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY"
+    },
+    "hobbies": ["realllding", "painting", "cooking"]
+}
+myDictProperty = myDict.get("address").get("street")
 
 # print(myDictProperty)
 
 #Dictionary methods
 
-# dict = {
-#     "name": "Abdulla",
-#     "age": 25,
-#     "city": "New York",
-#     "occupation": "Software Engineer",
-#     "isSingle": True,
-# }
+dict = {
+    "name": "Abdulla",
+    "age": 25,
+    "city": "New York",
+    "occupation": "Software Engineer",
+    "isSingle": True,
+}
 
-# print(dict.keys())
+print(dict.keys())
 
-# print(dict.values())
+print(dict.values())
 
-# print(dict.items())
+print(dict.items())
 
 
-# typeOfOcc = type(dict.get("occupation"))
+typeOfOcc = type(dict.get("occupation"))
                  
-# print(typeOfOcc)
+print(typeOfOcc)
 
-# print(dict.get("occupation"))
+print(dict.get("occupation"))
 
 dict = {
     "name": "Abdulla",
